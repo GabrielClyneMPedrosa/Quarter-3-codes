@@ -1,0 +1,27 @@
+
+
+steps = [
+    [4500, 5200, 4800, 5000, 5300],  # Me
+    [4000, 4100, 3900, 4200, 4600],  # Lia
+    [6000, 5800, 5900, 6100, 6200]   # Jake
+]
+
+# Names and days (to match indexes)
+names = ["Me", "Lia", "Jake"]
+days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+
+# 1. Print Jake's steps on Wednesday
+jake_index = 2
+wednesday_index = 2
+print("Jake's steps on Wednesday:", steps[jake_index][wednesday_index])
+
+# 2. Print all of my steps
+print("My steps:", steps[0])
+
+# 3. Update my Thursday steps to 5500
+thursday_index = 3
+steps[0][thursday_index] = 5500
+print("Updating my Thursday steps to 5500.")
+
+# 4. Print updated steps
+print("My updated steps:", steps[0])
